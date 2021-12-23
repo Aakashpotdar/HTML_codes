@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta charset="utf-8">
+<title>Demo FlexBox</title>
+    </head>
+    <style>
+        
+body{
+    display: flex;
+    min-height: 50vh;
+    flex-direction: row;
+    margin: 0;
+}
+        .headerContaner
+        { 
+            flex-flow: column;
+            text-align: center;
+            padding: 1em;
+            margin: 1px;
+            align-content: center;   
+        }
+        .inner-col
+        {
+            flex:4;
+        }
+        section{
+            background-color: rgb(226, 233, 247);
+        }
+        article{
+            padding: 1em;
+            margin: 10px;
+            background: rgb(172, 231, 160);
+        }
+        .inner-row{
+            display: flex;
+            flex-direction: row;
+        }
+        footer{
+            flex:1;
+            flex-flow: column wrap;
+            align-content: center;
+            background-color: rgb(235, 83, 116);
+            font-weight: bold;
+            padding: 1em;
+        }
+        .outer-col-1 {
+         background: #D7E8D4;
+            flex: 1;
+         }
+         aside{
+             background-color: aquamarine;
+         }
+        header{
+            background-color: darkgoldenrod;
+            border: rgb(209, 68, 68);
+        }
+        header,footer,div,article{
+            padding: 1em;
+        }
+        .outer-col-2{
+            display: flex;
+            flex-direction: column;
+            flex: 5;
+        }
+    </style>
+    <body>
+        <nav class="outer-col-1"><p>Left Side Bar</p></nav>
+        <div class="outer-col-2">
+        <header class="headerContaner"><h1>Header-Sample FlexBox Demo</h1></header>
+        <div class="inner-row">
+            <div class="inner-col">
+                <section>
+                <article>
+                    <h3>First Artical</h3>
+                    <p>Research: Articles, Research, & Case Studies on Research – HBS Working Knowledge Research New research from Harvard Business School faculty on issues including academic management research, how business research can contribute to public policy, and empirical approaches to entrepreneurship. Page 1 of 95 Results → 13 Apr 2021 Working Paper Summaries</p>
+                </article>
+                <article>
+                    <h3>Second Artical</h3>
+                    <p>Search across a wide variety of disciplines and sources: articles, theses, books, abstracts and court opinions. Advanced search. Find articles. with all of the words. with the exact phrase. with at least one of the words. without the words. where my words occur. anywhere in the article. in the title of the article. Return articles authored by. e.g., "PJ Hayes" or McCarthy. Return articles published in. e.g., J Biol </p>
+                </article>
+                <article>
+                    <h3>Third Artical</h3>
+                    <p>Search Articles by Author Name, Titles, Issues and volumes. Faciltiy of Online submission of Articles on the web-site. What's New. Volume 8 Issue 4 is now available online. Online Publication Date 20th of Every Month. Submit your Research Article/Paper/Case Study at editor@indianresearchjournals.com; Impact Factor of IJMFSMR is 5.77</p>
+                </article>
+                </section>
+                <section><footer>Footer</footer></section>
+            </div>
+            <aside><p>Right Side Bar</p></aside> 
+           
+        </div>
+        </div> 
+    </body>
+</html>
