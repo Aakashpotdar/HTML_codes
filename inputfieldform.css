@@ -1,0 +1,47 @@
+form
+{
+    display: flex;
+    background-color: #eedfdff1;
+    align-items: center;
+    align-content: center;
+    flex-direction:column;
+    margin-top: 50px;
+    
+}
+body{
+    width: 100%;
+    max-width: 600px;
+    align-content: center;
+    margin:0px auto; 
+}
+.headContainer
+{
+    color: rgb(0, 0, 0);
+
+    background-color: rgb(223, 222, 188);
+}
+div
+{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    margin-bottom: 20px;
+}   
+lable
+{
+    background-color: rgb(96, 163, 96);
+    text-align: right;
+    margin-right: 3%;
+    width: 30%;
+}
+input
+{
+    flex:auto;
+    font-size: 16px;
+    line-height: 1.5;
+}
+button{
+    margin: 0px;
+
+}
